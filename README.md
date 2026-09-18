@@ -445,7 +445,7 @@ Generate a mini survey covering all four papers.
 
 ---
 
-**## Course**
+## Course
 
 **Data Mining Course — University of Isfahan**
 
