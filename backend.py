@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 from openai import OpenAI
 
 
-API_KEY = os.getenv("RESEARCH_ASSISTANT_API_KEY", "add your api key")
+API_KEY = os.getenv("RESEARCH_ASSISTANT_API_KEY", "your-api-key")
 BASE_URL = os.getenv("RESEARCH_ASSISTANT_BASE_URL", "https://api.gapgpt.app/v1")
 
 EMBED_MODEL = "text-embedding-3-small"
