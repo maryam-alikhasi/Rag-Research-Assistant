@@ -152,7 +152,7 @@ Research Papers (PDF)
      Answer
 ```
 
-## The project uses `pymupdf4llm` to convert PDF papers into Markdown text. Tables are processed separately from prose, and the resulting content is divided into chunks before being embedded and stored in ChromaDB.
+The project uses `pymupdf4llm` to convert PDF papers into Markdown text. Tables are processed separately from prose, and the resulting content is divided into chunks before being embedded and stored in ChromaDB.
 
 ## Document Processing
 
@@ -195,7 +195,7 @@ Each chunk is stored together with metadata identifying:
 * The paper
 * The chunk type (`table` or `prose`)
 
-## The generated embeddings are stored alongside the document chunks in the collection.
+The generated embeddings are stored alongside the document chunks in the collection.
 
 ## Embeddings
 
