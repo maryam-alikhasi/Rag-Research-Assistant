@@ -179,8 +179,6 @@ The remaining prose is divided into overlapping chunks before being stored in th
 
 The project uses a chunk size of 500 words with an overlap of 100 words during indexing.
 
----
-
 ## Vector Database
 
 The project uses **ChromaDB** as its persistent vector database.
